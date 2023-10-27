@@ -1,0 +1,28 @@
+<!-- vs code uses something knows as emmit -->
+<!-- emmit is a plugin that allows you to write html code faster -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root">
+      <h1>Akshay is here!</h1> 
+      
+      <!-- inside root we are rendering our react elements  so h1 will be replaced with rendering -->
+   </div>
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>  -->
+    <!-- after including these link we have react inside it these are cdn links-->
+    <!-- first script if core file of react the second one is react dom this is react library which is usedfull for dom operations document object model-->
+    <!-- crossorigin  -->
+  <!-- react is a frame work because react if we want it can work in small element in our code wherever we want .it only works in the place whatever we make root as . it can work independently in small part of our app as well .framework comes with all sort of things.react is pieces of javascript code.framework require you to create a app using that framework -->
+    <script type="module" src="./src/App.js">
+   
+    </script>
+  <!-- without writing the type module we cannot use import export in App.js it tells our browser it is not a normal javascript file its a module -->
+    <!-- order of script matter in html file if we place the script App.js before the CDN scripts then we will get error-->
+</html>

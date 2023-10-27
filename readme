@@ -1,0 +1,46 @@
+two types of export/import
+
+- Default export/import
+
+exprot default Component;
+import Component from "path";
+
+- Named Export/ Import
+
+export const Component
+import {Component} from "path";
+
+--React Hooks
+(Normal Js utility functions)
+(Two most important hooks)
+- useState() - Superpowerful State variable in react
+- useEffect() 
+
+#2 types of routing
+-client side routing: all the components are already loaded into our app about us contact us which are not doing any api call .only network call is made when we call an api.we are not fetching a new page
+-server side routing: you have index.html, about.html contact.html, if I click on my anchor tag  /about
+ it reloads the whole page it sends netword call and fetches about.html and renders the whole page
+
+#Redux Toolkit
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Connect our store to our app
+- Slice (cartSlice)
+- dispatch(action)
+- Selector
+
+#Types of testing
+- Unit testing
+- Integration testing
+- End to End testing - e2e testing 
+
+#setting up testing in our app
+- Install React testing library
+- Installed jest
+- Installed babel dependencies
+- configure babel
+- configure parcel config file to disable default babel transpliation
+- Jest configuration (npx jest) --init
+- Install @babel/preset-react - to make JSX work in test cases
+- Incluse babel/preset-react inside my babe configuration
+- Install @testing-library/jest-dom

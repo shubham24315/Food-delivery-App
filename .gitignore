@@ -1,0 +1,5 @@
+/node_modules
+/dist
+.parcel-cache
+/coverage
+# git ignore if we can add files that we don't want to push to github
